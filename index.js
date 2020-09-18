@@ -1,6 +1,5 @@
 // array of questions for user
-const questions = [
-  {
+const questions = [{
     type: "input",
     message: "What is your project title?",
     name: "title"
@@ -57,24 +56,11 @@ const questions = [
   },
 ];
 
-var inquirer = require("inquirer");
-
-    inquirer
-      .prompt(questions)
-  .then(answers => {
-    // Use user feedback for... whatever!!
-  })
-  .catch(error => {
-    if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else when wrong
-    }
-  });
-
 // function to write README file
-function writeToFile(fileName, data) {
-}
+//function writeToFile(fileName, data) {
+  //const fileName = "README.md";
+  //fs.writeFile(fileName, data);
+//}
 
 // function to initialize program
 function init() {
@@ -83,3 +69,17 @@ function init() {
 
 // function call to initialize program
 init();
+
+//require inquirer
+var inquirer = require("inquirer");
+
+inquirer
+  .prompt(questions)
+  .then(function (data) {
+
+    //writeToFile();
+    if (err) {
+      return console.log(err);
+    }
+    console.log("Success!");
+  });
