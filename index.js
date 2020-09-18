@@ -4,6 +4,36 @@ var inquirer = require("inquirer");
       .prompt([
         {
           type: "input",
+          message: "What is your project title?",
+          name: "title"
+        },
+        {
+          type: "input",
+          message: "Enter a description for your project.",
+          name: "description"
+        },
+        {
+          type: "input",
+          message: "Enter installation requirements for your project.",
+          name: "installation"
+        },
+        {
+          type: "input",
+          message: "Enter how your project should be used.",
+          name: "usage"
+        },
+        {
+          type: "input",
+          message: "Would you like to include the contributors covenant?",
+          name: "contributor"
+        },
+        {
+          type: "input",
+          message: "Enter any tests on how to use your project.",
+          name: "tests"
+        },
+        {
+          type: "input",
           message: "What is your Git Hub user name?",
           name: "username"
         },
@@ -13,30 +43,31 @@ var inquirer = require("inquirer");
           name: "email"
         },
       ])
-      .then(function(response) {
-    
-        if (response.confirm === response.password) {
-          console.log("Success!");
-        }
-        else {
-          console.log("Failed");
-        }
-      });
+  .then(answers => {
+    // Use user feedback for... whatever!!
+  })
+  .catch(error => {
+    if(error.isTtyError) {
+      // Prompt couldn't be rendered in the current environment
+    } else {
+      // Something else when wrong
+    }
+  });
 
 
 // array of questions for user
-//const questions = [
+const questions = [
     
-//];
+];
 
 // function to write README file
-//function writeToFile(fileName, data) {
-//}
+function writeToFile(fileName, data) {
+}
 
 // function to initialize program
-//function init() {
+function init() {
 
-//}
+}
 
 // function call to initialize program
-//init();
+init();
