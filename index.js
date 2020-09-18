@@ -19,7 +19,7 @@ var inquirer = require("inquirer");
           console.log("Success!");
         }
         else {
-          console.log("You forgot your password already?!");
+          console.log("Failed");
         }
       });
 
