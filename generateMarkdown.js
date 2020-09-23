@@ -30,7 +30,7 @@ function generateMarkdown(data) {
 
   ## License
   
-  ${data.license}
+  { "license" : "${data.license}" }
   
   ## Badges
   

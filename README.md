@@ -28,7 +28,7 @@
 
   ## License
   
-  MIT License
+  { "license" : "MIT License" }
   
   ## Badges
   
