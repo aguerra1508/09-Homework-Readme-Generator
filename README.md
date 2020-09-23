@@ -42,7 +42,7 @@
   N/A
 
   ## Questions
-
-  __Git Hub:__ [aguerra1508](https://github.com/aguerra1508 "Git Hub")
   
-  __Email:__ aguerra1508@gmail.com
+  __Find me on Git Hub:__ [aguerra1508](https://github.com/aguerra1508 "Git Hub")
+  
+  __For questions or comments, email me at:__ aguerra1508@gmail.com
