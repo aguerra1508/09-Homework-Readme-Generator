@@ -1,23 +1,30 @@
-# Analee Guerra's Homework 09: README Generator
+# Title
 
   ## Description
   
-  This project generates a README markdown file using node.js. When the application is run, the user is given a series of prompts in which the responses are then used to generate a markdown (md) file. 
+  Description
 
   ## Table of Contents
-
+  
+  [Installation](#installation)
+  [Usage](#usage)
+  [Credits](#credits)
+  [License](#license)
+  [Contributing](#contributing)
+  [Tests](#tests)
+  [Questions](#questions)
   
   ## Installation
   
-  Visual Studio (VS) code and node.js are required to run this project.
+  Installation
   
   ## Usage 
   
-  The user will run the project via node.js. The user will be given a series of prompts which will be used to complete the required sections of the README.md file. Once the user has completed all the prompts, the file will console log that a the file was successfully generated. The newly generated file will then appear in the Open Editors section of VS code. 
+  Usage
   
   ## Credits
   
-  https://nodejs.org/en/
+  N/A
 
   ## License
   
@@ -28,11 +35,11 @@
   
   ## Contributing
   
-  No contributing guidelines.
+  N/A
   
   ## Tests
   
-  No tests performed.
+  N/A
 
   ## Questions
 
