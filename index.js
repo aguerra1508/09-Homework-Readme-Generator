@@ -2,7 +2,7 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const generateMarkdown = require ("./generateMarkdown.js");
+const generateMarkdown = require("./generateMarkdown.js");
 
 // array of questions for user
 const questions = [{
@@ -26,9 +26,14 @@ const questions = [{
     name: "usage"
   },
   {
-    type: "confirm",
-    message: "Would you like to include the contributors covenant?",
-    name: "contributor"
+    type: "input",
+    message: "Enter any collaborators, third party assets or other links.",
+    name: "credits"
+  },
+  {
+    type: "input",
+    message: "Do you have any contributing guidelines?",
+    name: "contributing"
   },
   {
     type: "input",
@@ -65,13 +70,13 @@ const questions = [{
 // function to initialize program
 async function init() {
   try {
-      const data = await inquirer
+    const data = await inquirer
       .prompt(questions)
-      const readme = await generateMarkdown(data);
-      await fs.writeFileSync("README.md", readme);
-      console.log("You've successfully wrote to README.md");
+    const readme = await generateMarkdown(data);
+    await fs.writeFileSync("README.md", readme);
+    console.log("You've successfully wrote to README.md");
   } catch (error) {
-      console.error(error);
+    console.error(error);
   }
 }
 init();

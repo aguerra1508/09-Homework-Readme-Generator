@@ -39,6 +39,7 @@ function generateMarkdown(data) {
   ## Questions
 
   ${data.username}
+  
   ${data.email}
 `;
 }
