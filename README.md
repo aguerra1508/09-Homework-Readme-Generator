@@ -5,14 +5,14 @@
   Description
 
   ## Table of Contents
-  
-  [Installation](#installation)
-  [Usage](#usage)
-  [Credits](#credits)
-  [License](#license)
-  [Contributing](#contributing)
-  [Tests](#tests)
-  [Questions](#questions)
+
+  *[Installation](#installation)
+  *[Usage](#usage)
+  *[Credits](#credits)
+  *[License](#license)
+  *[Contributing](#contributing)
+  *[Tests](#tests)
+  *[Questions](#questions)
   
   ## Installation
   
@@ -43,6 +43,6 @@
 
   ## Questions
 
-  aguerra1508
+  aguerra150
   
   aguerra1508@gmail.com
