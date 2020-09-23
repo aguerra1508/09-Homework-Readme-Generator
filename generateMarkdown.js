@@ -45,9 +45,9 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  ${data.username}
+  __Git Hub:__ [${data.username}](https://github.com/${data.username} "Git Hub")
   
-  ${data.email}
+  __Email:__ ${data.email}
 `;
 }
 

@@ -43,6 +43,6 @@
 
   ## Questions
 
-  aguerra1508
+  __Git Hub:__ [aguerra1508](https://github.com/aguerra1508 "Git Hub")
   
-  aguerra1508@gmail.com
+  __Email:__ aguerra1508@gmail.com
