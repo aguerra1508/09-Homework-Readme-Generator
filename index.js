@@ -74,7 +74,7 @@ async function init() {
       .prompt(questions)
     const readme = await generateMarkdown(data);
     await fs.writeFileSync("README.md", readme);
-    console.log("You've successfully wrote to README.md");
+    console.log("You've successfully generated your README.md");
   } catch (error) {
     console.error(error);
   }

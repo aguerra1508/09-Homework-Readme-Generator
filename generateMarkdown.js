@@ -16,6 +16,8 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
+  * [Badges] (#badges)
+  * [Description] (#description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
@@ -50,7 +52,7 @@ function generateMarkdown(data) {
 
   ## Questions
   
-  __Find me on Git Hub:__ [${data.username}](https://github.com/${data.username} "Git Hub")
+  __Git Hub:__ [${data.username}](https://github.com/${data.username} "Git Hub")
   
   __For questions or comments, email me at:__ ${data.email}
 `;
