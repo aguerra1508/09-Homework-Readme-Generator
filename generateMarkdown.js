@@ -16,8 +16,8 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [Badges] (#badges)
-  * [Description] (#description)
+  * [Badges](#badges)
+  * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
