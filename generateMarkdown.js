@@ -1,10 +1,14 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+
+  var badge = `https://img.shields.io/badge/license-${data.license}-brightgreen`;
+  badge = encodeURI(badge);
+
   return `# ${data.title}
 
   ## Badges
 
-  ![license badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  ![badge](${badge})
 
   ## Description
   

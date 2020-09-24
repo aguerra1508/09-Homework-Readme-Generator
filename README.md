@@ -1,8 +1,8 @@
-# Title
+# title
 
   ## Badges
 
-  ![license badge](https://img.shields.io/badge/license-MIT License-brightgreen)
+  ![badge](https://img.shields.io/badge/license-MIT%20License-brightgreen)
 
   ## Description
   
