@@ -2,12 +2,14 @@
 
   ## Badges
 
-  ![badge](https://img.shields.io/badge/license-MIT%20License-brightgreen)
+  No badges
 
   ## Description
   
-  This project generates a README markdown file using node.js. When the application is run, the user is given a series of prompts in which the responses are then used to generate a markdown (md) file.
+  This project generates a README markdown file using node.js. When the application is run, the user is given a series of prompts in which the responses are then used to generate a markdown (md) file. This will allow for a quick and easy way to generate the README of a project.
 
+  Link to video on project performance and usage: https://drive.google.com/file/d/1trO5PJiLK45Ja0rr28PP21XWqxlejoA5/view
+  
   ## Table of Contents
 
   * [Badges](#badges)
@@ -26,7 +28,7 @@
   
   ## Usage 
   
-  The user will run the project via node.js. The user will be given a series of prompts which will be used to complete the required sections of the README.md file. Once the user has completed all the prompts, the file will console log that a the file was successfully generated. The newly generated file will then appear in the Open Editors section of VS code.
+  The user will run the project via node.js using the `node index.js` command. The user will be given a series of prompts which will be used to complete the required sections of the README.md file. Once the user has completed all the prompts, the file will console log that the file was successfully generated. The newly generated file will then appear in the Open Editors section of VS code.
   
   ## Credits
   
@@ -34,7 +36,7 @@
 
   ## License
   
-  MIT License
+  No license
   
   ## Contributing
   
