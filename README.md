@@ -2,7 +2,7 @@
 
   ## Badges
 
-  [license badge](https://img.shields.io/badge/license-MIT License-brightgreen)
+  ![license badge](https://img.shields.io/badge/license-MIT License-brightgreen)
 
   ## Description
   

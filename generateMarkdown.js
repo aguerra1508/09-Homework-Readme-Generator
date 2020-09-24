@@ -4,7 +4,7 @@ function generateMarkdown(data) {
 
   ## Badges
 
-  [license badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  ![license badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
 
   ## Description
   
