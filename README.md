@@ -1,5 +1,9 @@
 # Title
 
+  ## Badges
+
+  [license badge](https://img.shields.io/badge/license-MIT License-brightgreen)
+
   ## Description
   
   Description
@@ -28,10 +32,7 @@
 
   ## License
   
-  { "license" : "MIT License" }
-  
-  ## Badges
-  
+  MIT License
   
   ## Contributing
   
